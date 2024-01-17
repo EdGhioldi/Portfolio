@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos del documento -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción de tu portafolio">
+    
+    <!-- Enlaces a hojas de estilo -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    
+    <!-- Título de la página -->
+    <title>Portfolio Eduardo Ghioldi</title>
+</head>
+
+<body class="flex h-screen bg-1a1a40 text-gray-300 background">
+
+    <!-- Contenedor principal que divide la pantalla en dos columnas -->
+    <div class="container">
+        <!-- Columna izquierda -->
+        <div class="left-column">
+            <div class="p-8">
+                <!-- Encabezado principal -->
+                <h1 class="encabezadoh1">Bienvenidos!<br> Soy Eduardo Ghioldi</h1>
+                <!-- Subtítulo -->
+                <h2 class="descripcion">FullStack Java | Spring | SQL </h2>
+            </div>
+
+            <!-- Navegación -->
+            <nav class="p-8">
+                <ul>
+                    <!-- Enlaces de navegación -->
+                    <li><a href="#" onclick="showContent('aboutMe')" class="enlacesH1">Sobre Mí</a></li>
+                    <li><a href="#" onclick="showContent('skills')" class="enlacesH1">Habilidades</a></li>
+                    <li><a href="#" onclick="showContent('projects')" class="enlacesH1">Proyectos</a></li>
+                </ul>
+            </nav>
+
+        <nav class="p-8">
+            <!-- Agregar botones con logos (usando URLs directas) -->
+            <div class="social-buttons flex space-x-2">
+                <!-- Ajustar el tamaño y la forma de las imágenes -->
+                <a href="https://github.com/EdGhioldi" target="_blank" class="inline-block rounded-full overflow-hidden">
+                    <img src="images/logo-github.png" alt="GitHub" class="w-8 h-8">
+                </a>
+                <a href="https://www.linkedin.com/in/ghioldieduardo/" target="_blank" class="inline-block rounded-full overflow-hidden">
+                    <img src="images/logo-linkedin.png" alt="LinkedIn" class="w-8 h-8">
+                </a>
+                <a href="mailto:ghioldigahonaeduardo@gmail.com" class="inline-block rounded-full overflow-hidden">
+                    <img src="images/logo-gmail.jpg" alt="Gmail" class="w-8 h-8">
+                </a>
+                <a href="https://www.hackerrank.com/profile/ghioldigahonaed1" target="_blank" class="inline-block rounded-full overflow-hidden">
+                    <img src="images/logo-hackerrank.png" alt="HackerRank" class="w-8 h-8">
+                </a>
+            </div>
+        </nav>
+    </div>  
+        <!-- Columna derecha -->
+        <div class="right-column">
+            <!-- Contenido dinámico que se mostrará según la selección -->
+            <div class="content" id="aboutMeContent">
+                <p class="contenido-derecha">   He completado varios cursos, incluyendo programación, bases de datos, Java y cloud computing. En particular, me he enfocado intensamente en el estudio de Java y cloud computing, ya que considero que son áreas fundamentales en el desarrollo de aplicaciones modernas y soluciones basadas en la nube.<br>
+                    Me impulsa el deseo constante de aprender y crecer profesionalmente. Creo firmemente que el aprendizaje continuo es la clave para mantenerme actualizado en un campo tan dinámico como la programación. Me siento entusiasmado por estar al tanto de las últimas tendencias y tecnologías, y estoy siempre dispuesto a asumir nuevos desafíos para perfeccionar mis habilidades.<br>
+                    Mi enfoque y dedicación a la programación se reflejan en mi capacidad para resolver problemas de manera eficiente y creativa. Soy un pensador analítico y me gusta abordar los desafíos con una mentalidad de resolución de problemas. Además, mi experiencia en el campo administrativo me ha proporcionado habilidades sólidas en organización, comunicación y gestión del tiempo, lo que me permite ser efectivo en entornos laborales exigentes.<br>
+                    Estoy buscando oportunidades para aplicar mis habilidades en un entorno dinámico y desafiante, donde pueda seguir creciendo profesionalmente. Siempre estoy dispuesto a afrontar nuevos proyectos y trabajar en equipo para lograr resultados sobresalientes.</p>
+            </div>
+
+            <div class="content" id="skillsContent">
+                <p class="contenido-derecha">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+            </div>
+
+            <div class="content" id="projectsConten
+            t">
+                <p class="contenido-derecha">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
