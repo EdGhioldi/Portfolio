@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #1a1a40;
+    scroll-behavior: smooth; /* Agregado: Desplazamiento suave */
 }
 
 .background {
@@ -42,6 +43,10 @@ body {
 .content {
     padding: 20px;
     display: none;
+}
+
+.content[style*="display: block"] {
+    opacity: 1; /* Agregado: Hace que la sección visible tenga opacidad completa */
 }
 
 .content p {

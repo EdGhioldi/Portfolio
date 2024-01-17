@@ -9,5 +9,6 @@ function showContent(contentId) {
     var selectedContent = document.getElementById(contentId + 'Content');
     if (selectedContent) {
         selectedContent.style.display = 'block';
+        // No es necesario el código relacionado con 'scrollIntoView' aquí
     }
 }
