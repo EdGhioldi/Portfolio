@@ -85,7 +85,6 @@ body {
 }
 
 /* Añadido: Estilos para la sección de habilidades */
-/* Añadido: Estilos para la sección de habilidades */
 .logos-table {
     width: 100%; /* Ajusta el ancho según tus necesidades */
     border-collapse: collapse;
@@ -110,3 +109,78 @@ body {
     font-size: 25px;
     padding: 5px;
 }
+
+
+/* Estilo para la sección de Proyectos */
+.primer-linea-proyectos{
+    padding-top: 50px;
+}
+.project-entry:nth-child(2n) {
+    margin-left: 20px; /* Agrega un margen izquierdo para la segunda columna */
+}
+
+.project-entry h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-entry img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.project-entry a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-entry a:hover {
+    background-color: #45a049;
+}
+
+#projectsContent {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-entry {
+    flex: 0 0 calc(50% - 20px); /* 50% de ancho con un espacio de 20px entre proyectos */
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #1a1a40;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+
+/* Agregado: Estilos para la sección de proyectos */
+.primer-linea-proyectos,
+.segunda-linea-proyectos {
+    display: flex;
+    justify-content: space-between; /* Alinea los proyectos en línea y separados */
+    margin-bottom: 30px;
+}
+
+/* Agregado: Estilo individual del proyecto */
+.project-entry {
+    flex: 0 0 calc(48% - 10px); /* 48% de ancho con un espacio de 10px entre proyectos */
+    margin-bottom: 20px; /* Ajusta según tus necesidades */
+    box-sizing: border-box; /* Añadido: Incluye el borde en el cálculo del tamaño */
+}
+
+.project-entry img {
+    width: 100%; /* Ajusta el ancho de las imágenes al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+    border-radius: 5px; /* Añadido: Bordes redondeados */
+}
+
+/* Repite este bloque para los demás proyectos */
