@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descripción de tu portafolio">
-    
+
     <!-- Enlaces a hojas de estilo -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <link rel="stylesheet" href="styles/style.css">
-    
+
     <!-- Título de la página -->
     <title>Portfolio Eduardo Ghioldi</title>
 </head>
@@ -39,57 +39,113 @@
                 </ul>
             </nav>
 
-        <nav class="p-8">
-            <!-- Agregar botones con logos (usando URLs directas) -->
-            <div class="social-buttons flex space-x-2">
-                <!-- Ajustar el tamaño y la forma de las imágenes -->
-                <a href="https://github.com/EdGhioldi" target="_blank" class="inline-block rounded-full overflow-hidden">
-                    <img src="images/logo-github.png" alt="GitHub" class="w-8 h-8">
-                </a>
-                <a href="https://www.linkedin.com/in/ghioldieduardo/" target="_blank" class="inline-block rounded-full overflow-hidden">
-                    <img src="images/logo-linkedin.png" alt="LinkedIn" class="w-8 h-8">
-                </a>
-                <a href="mailto:ghioldigahonaeduardo@gmail.com" class="inline-block rounded-full overflow-hidden">
-                    <img src="images/logo-gmail.jpg" alt="Gmail" class="w-8 h-8">
-                </a>
-                <a href="https://www.hackerrank.com/profile/ghioldigahonaed1" target="_blank" class="inline-block rounded-full overflow-hidden">
-                    <img src="images/logo-hackerrank.png" alt="HackerRank" class="w-8 h-8">
-                </a>
-            </div>
-        </nav>
-    </div>  
+            <nav class="p-8">
+                <!-- Agregar botones con logos (usando URLs directas) -->
+                <div class="social-buttons flex space-x-2">
+                    <!-- Ajustar el tamaño y la forma de las imágenes -->
+                    <a href="https://github.com/EdGhioldi" target="_blank"
+                        class="inline-block rounded-full overflow-hidden">
+                        <img src="images/logo-github.png" alt="GitHub" class="w-8 h-8">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ghioldieduardo/" target="_blank"
+                        class="inline-block rounded-full overflow-hidden">
+                        <img src="images/logo-linkedin.png" alt="LinkedIn" class="w-8 h-8">
+                    </a>
+                    <a href="mailto:ghioldigahonaeduardo@gmail.com" class="inline-block rounded-full overflow-hidden">
+                        <img src="images/logo-gmail.jpg" alt="Gmail" class="w-8 h-8">
+                    </a>
+                    <a href="https://www.hackerrank.com/profile/ghioldigahonaed1" target="_blank"
+                        class="inline-block rounded-full overflow-hidden">
+                        <img src="images/logo-hackerrank.png" alt="HackerRank" class="w-8 h-8">
+                    </a>
+                </div>
+            </nav>
+        </div>
         <!-- Columna derecha -->
         <div class="right-column">
             <!-- Contenido dinámico que se mostrará según la selección -->
             <div class="content" id="aboutMeContent">
-                <p class="contenido-derecha">Estoy enfocado intensamente en el estudio de <strong>Java</strong> y 
-                    <strong>Cloud Computing</strong>, ya que considero que son áreas fundamentales en 
+                <p class="contenido-derecha">Estoy enfocado intensamente en el estudio de <strong>Java</strong> y
+                    <strong>Cloud Computing</strong>, ya que considero que son áreas fundamentales en
                     el desarrollo de aplicaciones modernas y soluciones basadas en la nube.<br>
                     Me impulsa el deseo constante de aprender y crecer profesionalmente. <br>
-                    Creo firmemente que el <strong>aprendizaje continuo</strong> es la clave 
+                    Creo firmemente que el <strong>aprendizaje continuo</strong> es la clave
                     para mantenerme actualizado en un campo tan dinámico como la <strong>programación</strong>. <br>
-                    Me siento entusiasmado por estar al tanto de las últimas tendencias y tecnologías, 
+                    Me siento entusiasmado por estar al tanto de las últimas tendencias y tecnologías,
                     y estoy siempre dispuesto a asumir nuevos desafíos para perfeccionar mis habilidades.<br>
-                    Mi enfoque y dedicación a la <strong>programación</strong> 
+                    Mi enfoque y dedicación a la <strong>programación</strong>
                     se reflejan en mi capacidad para resolver problemas de manera eficiente y creativa.<br>
-                    Soy un pensador analítico y me gusta abordar los desafíos con una mentalidad de resolución de problemas. 
-                    Además, mi experiencia en el campo <strong>administrativo</strong> me ha proporcionado 
-                    habilidades sólidas en <strong>organización</strong>, <strong>comunicación</strong> 
-                    y <strong>gestión del tiempo</strong>, lo que me permite ser efectivo en entornos laborales exigentes.<br>
-                    Estoy buscando oportunidades para aplicar mis habilidades en un entorno dinámico y desafiante, 
-                    donde pueda seguir creciendo profesionalmente. Siempre estoy dispuesto a afrontar nuevos 
-                    proyectos y trabajar en equipo para lograr resultados sobresalientes.</p>
+                    Soy un pensador analítico y me gusta abordar los desafíos con una mentalidad de resolución de
+                    problemas. Además, mi experiencia en el campo <strong>administrativo</strong> me ha proporcionado
+                    habilidades sólidas en <strong>organización</strong>, <strong>comunicación</strong>
+                    y <strong>gestión del tiempo</strong>, lo que me permite ser efectivo en entornos laborales
+                    exigentes.<br>
+                    Estoy buscando oportunidades para aplicar mis habilidades en un entorno dinámico y desafiante,
+                    donde pueda seguir creciendo profesionalmente. Siempre estoy dispuesto a afrontar nuevos
+                    proyectos y trabajar en equipo para lograr resultados sobresalientes.
+                </p>
             </div>
 
+            <div class="content skillsCategory" id="skillsContent">
+                <div class="category">
+                    <h2 class="skillh2">Programming Languages</h2>
+                    <div class="logos logos-table">
+                        <table>
+                            <tr>
+                                <td><img src="https://seeklogo.com/images/J/java-logo-7F8B35BAB3-seeklogo.com.png" alt="Java"></td>
+                                <td><img src="https://seeklogo.com/images/J/javascript-js-logo-2949701702-seeklogo.com.png" alt="JavaScript"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            
+                <div class="category">
+                    <h2 class="skillh2">Frontend Developer</h2>
+                    <div class="logos logos-table">
+                        <table>
+                            <tr>
+                                <td><img src="https://seeklogo.com/images/H/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png" alt="HTML5"></td>
+                                <td><img src="https://seeklogo.com/images/C/css-3-logo-023C1A7171-seeklogo.com.png" alt="CSS3"></td>
+                                <td><img src="https://seeklogo.com/images/S/sass-logo-E41E7734A8-seeklogo.com.png" alt="Sass"></td>
+                                <td><img src="https://seeklogo.com/images/T/tailwind-css-logo-89E99D7181-seeklogo.com.png" alt="Tailwind"></td>
+                                <td><img src="https://seeklogo.com/images/B/bootstrap-5-logo-85A1F11F4F-seeklogo.com.png" alt="Bootstrap"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            
+                <div class="category">
+                    <h2 class="skillh2">Backend Developer</h2>
+                    <div class="logos logos-table">
+                        <table>
+                            <tr>
+                                <td><img src="https://seeklogo.com/images/N/nodejs-logo-54107C5EDD-seeklogo.com.png?v=638179441380000000" alt="Node.js"></td>
+                                <td><img src="https://seeklogo.com/images/S/spring-logo-9A2BC78AAF-seeklogo.com.png" alt="Spring"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            
+                <div class="category">
+                    <h2 class="skillh2">Database</h2>
+                    <div class="logos logos-table">
+                        <table>
+                            <tr>
+                                <td><img src="https://seeklogo.com/images/M/mongodb-logo-EB64EB73FB-seeklogo.com.png" alt="MongoDB"></td>
+                                <td><img src="https://seeklogo.com/images/M/mysql-logo-69B39F7D18-seeklogo.com.png" alt="MySQL"></td>
+                                <td><img src="https://seeklogo.com/images/P/postgre-sql-logo-600AD1A66B-seeklogo.com.png" alt="PostgreSQL"></td>
+                                <td><img src="https://seeklogo.com/images/S/sqlite-logo-5E9F462E6A-seeklogo.com.png" alt="SQLite"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
+            
+            
 
-            <div class="content" id="skillsContent">
-                <p class="contenido-derecha">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
-            </div>
-
-            <div class="content" id="projectsConten
-            t">
-                <p class="contenido-derecha">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+            <div class="content" id="projectsContent">
+                <p class="contenido-derecha">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.
+                    Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
             </div>
         </div>
     </div>

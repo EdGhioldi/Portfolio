@@ -1,11 +1,12 @@
+/* Estilos globales */
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #1a1a40;
-
 }
 
-.background{
+.background {
     background-color: #1a1a40;
 }
 
@@ -42,31 +43,65 @@ body {
     padding: 20px;
     display: none;
 }
+
 .content p {
     color: #d1d1d9;
-    }
+}
+
 .content#aboutMeContent {
     display: block;
 }
-.encabezadoh1{      /* Bienvenidos!*/
+
+.encabezadoh1 {
+    /* Bienvenidos! */
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 65px 20px 0px 20px;
 }
-.descripcion{       /* Full Stack Java||*/
+
+.descripcion {
+    /* Full Stack Java|| */
     color: #d1d1d9;
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px 20px 0px 20px;
 }
-.enlacesH1{     /* Pantalla Izquierda*/
+
+.enlacesH1 {
+    /* Pantalla Izquierda */
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px 20px 0px 20px;
 }
-.contenido-derecha{    /* Texto descripcion de cada enlace */
+
+.contenido-derecha {
+    /* Texto descripcion de cada enlace */
     padding: 80px 20px 0px 20px;
     color: #d1d1d9;
+}
+
+/* Añadido: Estilos para la sección de habilidades */
+/* Añadido: Estilos para la sección de habilidades */
+.logos-table {
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+    border-collapse: collapse;
+}
+
+.logos-table td {
+    padding: 10px; /* Ajusta el espaciado interno según tus necesidades */
+    border: 1px solid #d1d1d9; /* Agregado: Borde para las celdas */
+}
+
+.logos img {
+    width: 50px; /* Ajusta este valor según tus preferencias */
+    height: 50px; /* Ajusta este valor según tus preferencias */
+    object-fit: cover; /* Cambiado: Utiliza cover para que la imagen cubra completamente el contenedor */
+    border-radius: 5px; /* Añadido: Bordes redondeados */
+}
+
+.skillsCategory{
+    padding-top: 100px;
+}
+.skillh2{
+    font-size: 25px;
+    padding: 5px;
 }
