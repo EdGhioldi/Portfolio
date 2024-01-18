@@ -159,6 +159,7 @@ body {
     background-color: #1a1a40;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
+    text-align: center; /* Centra el contenido del div horizontalmente */
 }
 
 
@@ -179,7 +180,7 @@ body {
 
 .project-entry img {
     width: 100%; /* Ajusta el ancho de las imágenes al 100% del contenedor */
-    height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+    height: 140px; 
     border-radius: 5px; /* Añadido: Bordes redondeados */
 }
 
