@@ -164,8 +164,7 @@ body {
 
 
 /* Agregado: Estilos para la sección de proyectos */
-.primer-linea-proyectos,
-.segunda-linea-proyectos {
+.primer-linea-proyectos{
     display: flex;
     justify-content: space-between; /* Alinea los proyectos en línea y separados */
     margin-bottom: 30px;
