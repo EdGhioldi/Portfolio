@@ -164,7 +164,7 @@ body {
 
 
 /* Agregado: Estilos para la sección de proyectos */
-.primer-linea-proyectos{
+.primer-linea-proyectos, .segunda-linea-proyectos{
     display: flex;
     justify-content: space-between; /* Alinea los proyectos en línea y separados */
     margin-bottom: 30px;
@@ -183,4 +183,3 @@ body {
     border-radius: 5px; /* Añadido: Bordes redondeados */
 }
 
-/* Repite este bloque para los demás proyectos */
